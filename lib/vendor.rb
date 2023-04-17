@@ -5,7 +5,7 @@ class Vendor
   def initialize(name)
     @name = name
     @inventory = {}
-    @inventory.default = 0
+    @inventory.default = 0 
   end
 
   def check_stock(item)
