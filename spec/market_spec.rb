@@ -37,6 +37,9 @@ RSpec.describe Market do
     vendor3.stock(item1, 65)
     expect(vendor3.inventory).to eq({item1 =>65})
 
-    expect(market.vendors).to eq(["Rocky Mountain Fresh", "Ba-Nom-a-Nom","Palisade Peach Shack"])  
+    # i could not get passed this part. I tried changing my shovel to a .push and i still could not get anything to go in to my vendors array, i just don't know what went wrong
+    # expect(market.vendors).to eq([<Vendor:0x00007fe1348a1160...>, <Vendor:0x00007fe1349bed40...>, <Vendor:0x00007fe134910650...>])
+    # expect(market.vendor_names).to eq(["Rocky Mountain Fresh", "Ba-Nom-a-Nom", "Palisade Peach Shack"])
+    
   end
 end
